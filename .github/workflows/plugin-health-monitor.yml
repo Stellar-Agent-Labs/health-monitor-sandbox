@@ -33,7 +33,7 @@ jobs:
       - name: Run Plugin Health Monitor
         uses: actions/github-script@v7
         env:
-          TARGET_ORG: Stellar-Agent-Labs
+          TARGET_ORG: Triarchy-Labs
           FAILURE_THRESHOLD: ${{ inputs.failure_threshold || '10' }}
           DRY_RUN: ${{ inputs.dry_run || 'false' }}
           ISSUE_MENTIONS: "@y4motion"
